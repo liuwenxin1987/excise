@@ -1,0 +1,15 @@
+body {
+  border-style: solid;
+
+  width: 800.01;
+  height: 1000px;
+}
+h1 {
+  text-align: center;
+}
+.u-flex {
+  display: flex;
+}
+.a {
+  flex-basis: 30%;
+}
