@@ -7,10 +7,20 @@ body {
 h1 {
   text-align: center;
 }
+h3 {
+  background-color: rgb(192, 184, 184);
+}
 .u-flex {
   display: flex;
+}
+.pic {
+  margin-top: 30;
+  margin-left: 40;
 }
 .TC {
   flex-basis: 0;
   flex-grow: 1;
+}
+.pre {
+  font-family: "Micreosoft YaHei";
 }
