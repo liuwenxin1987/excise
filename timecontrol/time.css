@@ -1,0 +1,20 @@
+h1 {
+  background-color: aqua;
+  text-align: center;
+}
+textarea {
+  padding: 10px; /*填充内边距*/
+  max-width: 100%; /*限制最大宽度*/
+  line-height: 1.5; /*行间距150%*/
+  border-radius: 5px; /*外边框圆角*/
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999; /*边框阴影*/
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+.bk {
+  border: solid;
+  margin: auto;
+}
