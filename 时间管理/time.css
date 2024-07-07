@@ -6,3 +6,8 @@ h1 {
   display: flex;
   justify-content: space-around;
 }
+section {
+  border-style: solid;
+  padding: 1em;
+  border-radius: 1em 10%;
+}
