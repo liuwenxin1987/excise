@@ -1,3 +1,8 @@
+h1 {
+  text-align: center;
+  background-color: bisque;
+}
 .t-flex {
   display: flex;
+  justify-content: space-around;
 }

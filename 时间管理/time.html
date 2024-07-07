@@ -8,7 +8,14 @@
     <h1>时间管理</h1>
     <!--需要背景-->
     <dev class="t-flex">
-      <section><h2>文字记录</h2></section>
+      <section>
+        <form action="/timelog" method="post">
+          <label for="time"><h2>文字记录</h2></label>
+          <button id="time">time</button>
+          <input type="text" id="time" name="object" />
+        </form>
+      </section>
+
       <section><h2>时间轴与柄图</h2></section>
     </dev>
   </body>
