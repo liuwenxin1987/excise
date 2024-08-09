@@ -1,0 +1,22 @@
+* {
+  text-align: center;
+}
+
+#main {
+  background-color: #aab1b7;
+}
+
+#image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  height: auto;
+  text-align: center;
+}
+
+ul {
+  padding: 0 10%;
+}
+ul > li {
+  text-align: left;
+}
