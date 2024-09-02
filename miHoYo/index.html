@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <header id="header">
+      <img
+        id="header-img"
+        src="https://www.mihoyo.com/_nuxt/img/mihoyo-logo.fc3399a.png"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#login">登录</a></li>
+          <li><a class="nav-link" href="#grid">页面</a></li>
+          <li><a class="nav-link" href="#adress">联系我们</a></li>
+        </ul>
+      </nav>
+    </header>
+  </head>
+  <body>
+    <main>
+      <iframe
+        id="video"
+        src="https://fastcdn.mihoyo.com/content-v2/plat/100679/ba72c811245560287faddd66c0e7fbcc_8753389354197264113.mp4"
+        scrolling="no"
+        border="0"
+        frameborder="no"
+        framespacing="0"
+        allowfullscreen="true"
+      ></iframe>
+
+      <!--也许可以用哔哩哔哩的嵌入视频-->
+      <section id="login">
+        <form
+          id="form"
+          method="post"
+          action="https://www.freecodecamp.com/email-submit"
+        >
+          <div class="email">
+            <h1>加入我们！</h1>
+            <label for="email">
+              邮箱:
+              <input id="email" type="email" name="email" placeholder="邮箱" />
+              <!--html5验证是什么-->
+            </label>
+            <input id="submit" type="submit" />
+          </div>
+        </form>
+      </section>
+      <section id="grid">
+        <img
+          src="https://webstatic.mihoyo.com/upload/op-public/2021/10/09/6c0e9aaa5b9471e32316d11284edb710_2698450106633206665.png"
+          alt="miHoYo"
+          class="star-img"
+        />
+        <div id="intro">
+          <h2>崩坏：星穹铁道</h2>
+          <p>米哈游全新银河冒险策略游戏。</p>
+          <p>你将由此探索新的文明，结识新的伙伴，</p>
+          <p>在无数光怪陆离的「世界」与「世界」之间展开新的冒险。</p>
+          <p>所有你想知道的，都将在群星中找到答案。</p>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer id="adress">
+    <img
+      id="footer-img"
+      src="https://www.mihoyo.com/_nuxt/img/mihoyo-logo.fc3399a.png"
+    />
+  </footer>
+</html>

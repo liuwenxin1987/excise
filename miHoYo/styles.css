@@ -1,0 +1,80 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+  margin: 0;
+}
+main {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h1,
+div {
+  text-align: center;
+}
+
+#header {
+  display: flex;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#header-img {
+  height: 10%;
+  width: 20%;
+}
+#nav-bar {
+  width: 80%;
+}
+#nav-bar li {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+a:link {
+  color: black;
+}
+a:visted {
+  color: #249dd5;
+}
+a:hover {
+  color: #249dd5;
+}
+
+/*加一个@media*/
+iframe {
+  width: 100vw;
+  height: 56.25dvw;
+}
+body {
+  background-color: rgba(239, 228, 203, 0.3);
+}
+#grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.star-img {
+  grid-column: 1;
+  width: 100%;
+}
+#intro {
+  grid-column: 2;
+  text-align: right;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+  height: 300px;
+}
+#footer-img {
+  margin: auto;
+}
